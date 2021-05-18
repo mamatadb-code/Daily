@@ -1,0 +1,27 @@
+html,
+body {
+  margin: 0;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+/* Global classes */
+a{
+    text-decoration: none;
+}
+
+
+/* ----Navigation----- */
+.nav {
+  background-color: white;
+  padding: 0.2rem;
+  /* to collaps nav */
+  height: 0rem;
+  min-height: 100vh;
+}
+.nav .nav-brand a {
+  font-size: 1.6rem;
+  padding: 1rem 0;
+}
+
+/* ---X---Navigation---X-- */
